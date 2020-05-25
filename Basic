@@ -2,3 +2,33 @@ Sub MacroPrueba1()
  Range ("A1").Value="INV"
  Range ("A1").Interior.Color=5296274
  End Sub
+
+
+Sub GR()
+'
+' GR Macro
+'
+
+'
+    Range("A1").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("A1").Select
+    With Selection
+        .HorizontalAlignment = xlCenter
+        .VerticalAlignment = xlBottom
+        .WrapText = False
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = False
+        .ReadingOrder = xlContext
+        .MergeCells = False
+    End With
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+End Sub
