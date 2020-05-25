@@ -1,0 +1,620 @@
+Sub GR40549ProtocolV2()
+'
+' GR40549ProtocolV2 Macro
+'
+
+'
+    Range("C11,D11").Select
+    Range("D11").Activate
+    With Selection.Interior
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("C11").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("D11").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("A28").Select
+    ActiveCell.FormulaR1C1 = "Supplemental ranibizumab (if applicable)"
+    Range("A28").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("A31").Select
+    ActiveCell.FormulaR1C1 = _
+        "Central Labs (Aqueous humor sample for biomarkers): Sample Collection of Specimens "
+    Range("A31").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Columns("Z:Z").Select
+    Selection.Insert Shift:=xlToRight, CopyOrigin:=xlFormatFromLeftOrAbove
+    Columns("Z:Z").Select
+    Selection.Insert Shift:=xlToRight, CopyOrigin:=xlFormatFromLeftOrAbove
+    Selection.Insert Shift:=xlToRight, CopyOrigin:=xlFormatFromLeftOrAbove
+    Columns("Z:Z").Select
+    Selection.Insert Shift:=xlToRight, CopyOrigin:=xlFormatFromLeftOrAbove
+    Range("Z1:Z2").Select
+    Range("Z2").Activate
+    With Selection
+        .HorizontalAlignment = xlCenter
+        .VerticalAlignment = xlCenter
+        .WrapText = True
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = False
+        .ReadingOrder = xlContext
+        .MergeCells = False
+    End With
+    Selection.Merge
+    Range("AA1:AA2").Select
+    Range("AA2").Activate
+    With Selection
+        .HorizontalAlignment = xlCenter
+        .VerticalAlignment = xlCenter
+        .WrapText = True
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = False
+        .ReadingOrder = xlContext
+        .MergeCells = False
+    End With
+    Selection.Merge
+    Range("AB1:AB2").Select
+    Range("AB2").Activate
+    With Selection
+        .HorizontalAlignment = xlCenter
+        .VerticalAlignment = xlCenter
+        .WrapText = True
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = False
+        .ReadingOrder = xlContext
+        .MergeCells = False
+    End With
+    Selection.Merge
+    Range("AC1:AC2").Select
+    Range("AC2").Activate
+    With Selection
+        .HorizontalAlignment = xlCenter
+        .VerticalAlignment = xlCenter
+        .WrapText = True
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = False
+        .ReadingOrder = xlContext
+        .MergeCells = False
+    End With
+    Selection.Merge
+    Range("Y14").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("Y16").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("Z13:AC17").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("Z7:AC10").Select
+    With Selection.Interior
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("Z1:AC3").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("Z22:AC32").Select
+    With Selection.Interior
+        .PatternColorIndex = xlAutomatic
+        .ThemeColor = xlThemeColorDark1
+        .TintAndShade = -0.249977111117893
+        .PatternTintAndShade = 0
+    End With
+    Columns("AE:AE").Select
+    Selection.Insert Shift:=xlToRight, CopyOrigin:=xlFormatFromLeftOrAbove
+    Range("AE1:AE3").Select
+    With Selection
+        .HorizontalAlignment = xlCenter
+        .VerticalAlignment = xlCenter
+        .WrapText = True
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = False
+        .ReadingOrder = xlContext
+        .MergeCells = False
+    End With
+    Selection.Merge
+    Range("AE1:AF3").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AE7:AE20").Select
+    With Selection.Interior
+        .PatternColorIndex = xlAutomatic
+        .ThemeColor = xlThemeColorDark1
+        .TintAndShade = -0.249977111117893
+        .PatternTintAndShade = 0
+    End With
+    Range("Z1:AC2").Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlInsideVertical)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range("AE8:AF8").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AF9:AF10").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AE12").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("AE22").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("AE28").Select
+    ActiveCell.FormulaR1C1 = "399"
+    Range("AE22,AE12,AE28").Select
+    Range("AE28").Activate
+    With Selection.Interior
+        .Pattern = xlNone
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AE29:AE32").Select
+    With Selection.Interior
+        .Pattern = xlNone
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AE26").Select
+    With Selection.Interior
+        .Pattern = xlNone
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AF12").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AF22").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AF26").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AF28").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AF29").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AF30").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AF31").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AF32").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AF12:AF32").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .ThemeColor = xlThemeColorDark1
+        .TintAndShade = -0.249977111117893
+        .PatternTintAndShade = 0
+    End With
+    Range("B7").Select
+    Selection.Copy
+    Range("Z7").Select
+    ActiveSheet.Paste
+    Range("Z8").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("B9").Select
+    Selection.Copy
+    Range("Z9").Select
+    ActiveSheet.Paste
+    Range("B10").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("Z10").Select
+    ActiveSheet.Paste
+    Range("B13:B17").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("Z13:Z17").Select
+    ActiveSheet.Paste
+    Range("Y14:Z14").Select
+    Application.CutCopyMode = False
+    Range("Z14").Select
+    Selection.ClearContents
+    Range("B14").Select
+    Selection.Copy
+    Range("Z14").Select
+    ActiveSheet.Paste
+    Range("Y14").Select
+    ActiveSheet.Paste
+    Range("B16").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("Y16").Select
+    ActiveSheet.Paste
+    Range("Z13").Select
+    Application.CutCopyMode = False
+    Selection.AutoFill Destination:=Range("Z13:AC13"), Type:=xlFillDefault
+    Range("Z13:AC13").Select
+    Range("Z14").Select
+    Selection.AutoFill Destination:=Range("Z14:AC14"), Type:=xlFillDefault
+    Range("Z14:AC14").Select
+    Range("Z15").Select
+    Selection.AutoFill Destination:=Range("Z15:AC15"), Type:=xlFillDefault
+    Range("Z15:AC15").Select
+    Range("Z16").Select
+    Selection.AutoFill Destination:=Range("Z16:AC16"), Type:=xlFillDefault
+    Range("Z16:AC16").Select
+    Range("Z17").Select
+    Selection.AutoFill Destination:=Range("Z17:AC17"), Type:=xlFillDefault
+    Range("Z17:AC17").Select
+    Range("Z7").Select
+    Selection.AutoFill Destination:=Range("Z7:AC7"), Type:=xlFillDefault
+    Range("Z7:AC7").Select
+    Range("Z8").Select
+    Selection.AutoFill Destination:=Range("Z8:AC8"), Type:=xlFillDefault
+    Range("Z8:AC8").Select
+    Range("Z9").Select
+    Selection.AutoFill Destination:=Range("Z9:AC9"), Type:=xlFillDefault
+    Range("Z9:AC9").Select
+    Range("Z10").Select
+    Selection.AutoFill Destination:=Range("Z10:AC10"), Type:=xlFillDefault
+    Range("Z10:AC10").Select
+    Range("Z7:AC10").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("Z13:AC17").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("Y14").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("Y16").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("B9").Select
+    Selection.Copy
+    Range("AF9").Select
+    ActiveSheet.Paste
+    Range("B10").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("AF10").Select
+    ActiveSheet.Paste
+    Range("AF8").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("AF9:AF10").Select
+    Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    Application.CutCopyMode = False
+    Range("B13:B17").Select
+    Selection.Copy
+    Range("AF13:AF17").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AF10").Select
+    Selection.Copy
+    Range("AF13:AF17").Select
+    Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    Application.CutCopyMode = False
+    Range("Z1:Z2").Select
+    ActiveCell.FormulaR1C1 = "Safety Visit Post-ExplantationDay"
+    Selection.AutoFill Destination:=Range("Z1:AC2"), Type:=xlFillDefault
+    Range("Z1:AC2").Select
+    Range("Z1:Z2").Select
+    ActiveCell.FormulaR1C1 = "Safety Visit Post-ExplantationDay"
+    Range("Z1:Z2").Select
+    ActiveCell.FormulaR1C1 = "Safety Visit Post-ExplantationDay 1"
+    Range("AA1:AA2").Select
+    ActiveCell.FormulaR1C1 = "Safety Visit Post-ExplantationDay 7"
+    Range("AB1:AB2").Select
+    ActiveCell.FormulaR1C1 = "Safety Visit Post-ExplantationDay 30"
+    Range("AC1:AC2").Select
+    ActiveCell.FormulaR1C1 = "Safety Visit Post-ExplantationDay 60"
+    Range("AE1:AE3").Select
+    ActiveCell.FormulaR1C1 = "Additional Assessments if Supplemental Treatment"
+    Range("AF1:AF3").Select
+    ActiveCell.FormulaR1C1 = _
+        "Unscheduled Visit for Supplemental Treatment Eligibility"
+    Range("Z3").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AA3").Select
+    ActiveCell.FormulaR1C1 = "2"
+    Range("AB3").Select
+    ActiveCell.FormulaR1C1 = "7"
+    Range("AC3").Select
+    ActiveCell.FormulaR1C1 = "7"
+    Range("F3:W3").Select
+    ActiveCell.FormulaR1C1 = "(±7 days)"
+    With ActiveCell.Characters(Start:=1, Length:=1).Font
+        .Name = "Arial"
+        .FontStyle = "Bold"
+        .Size = 9
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .ColorIndex = xlAutomatic
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    With ActiveCell.Characters(Start:=2, Length:=1).Font
+        .Name = "Calibri"
+        .FontStyle = "Bold"
+        .Size = 9
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .ColorIndex = xlAutomatic
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    With ActiveCell.Characters(Start:=3, Length:=7).Font
+        .Name = "Arial"
+        .FontStyle = "Bold"
+        .Size = 9
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .ColorIndex = xlAutomatic
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    Range("AA3").Select
+    ActiveCell.FormulaR1C1 = "±2"
+    Range("AB3").Select
+    ActiveCell.FormulaR1C1 = "±7"
+    Range("AC3").Select
+    ActiveCell.FormulaR1C1 = "±7"
+    Range("B26").Select
+    Selection.Copy
+    Range("AE26").Select
+    ActiveSheet.Paste
+    Range("B29:B32").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("AE29:AE32").Select
+    ActiveSheet.Paste
+    Range("AE28").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("AE29:AE32").Select
+    Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    Application.CutCopyMode = False
+    Range("AE28").Select
+    Selection.Copy
+    Range("AE26").Select
+    Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "38"
+    Range("B34:B36").Select
+    Selection.Copy
+    Range("Z34:AC36").Select
+    ActiveSheet.Paste
+    Range("AE34:AE36").Select
+    ActiveSheet.Paste
+    Range("Z34:AC39").Select
+    Application.CutCopyMode = False
+    With Selection.Interior
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AE34:AE39").Select
+    With Selection.Interior
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("Y37").Select
+    Selection.AutoFill Destination:=Range("Y37:AC37"), Type:=xlFillDefault
+    Range("Y37:AC37").Select
+    Range("Y38").Select
+    Selection.AutoFill Destination:=Range("Y38:AC38"), Type:=xlFillDefault
+    Range("Y38:AC38").Select
+    Range("Y39").Select
+    Selection.AutoFill Destination:=Range("Y39:AC39"), Type:=xlFillDefault
+    Range("Y39:AC39").Select
+    Range("AD37").Select
+    Selection.AutoFill Destination:=Range("AD37:AE37"), Type:=xlFillDefault
+    Range("AD37:AE37").Select
+    Range("AD38").Select
+    Selection.AutoFill Destination:=Range("AD38:AE38"), Type:=xlFillDefault
+    Range("AD38:AE38").Select
+    Range("AD39").Select
+    Selection.AutoFill Destination:=Range("AD39:AE39"), Type:=xlFillDefault
+    Range("AD39:AE39").Select
+    Range("Z37:AC39").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AE37:AE39").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AD37:AF39").Select
+    With Selection.Interior
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AF34:AF36").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AD34").Select
+    Selection.Copy
+    Range("AE34:AE36").Select
+    Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    Application.CutCopyMode = False
+    Range("Y37:Y39").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AD37:AD39").Select
+    With Selection.Interior
+        .Pattern = xlNone
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AD42").Select
+    ActiveWindow.ScrollColumn = 13
+    ActiveWindow.ScrollColumn = 12
+    ActiveWindow.ScrollColumn = 11
+    ActiveWindow.ScrollColumn = 10
+    ActiveWindow.ScrollColumn = 9
+    ActiveWindow.ScrollColumn = 8
+    ActiveWindow.ScrollColumn = 7
+    ActiveWindow.ScrollColumn = 6
+    ActiveWindow.ScrollColumn = 5
+    ActiveWindow.ScrollColumn = 4
+    ActiveWindow.ScrollColumn = 3
+    ActiveWindow.ScrollColumn = 2
+    ActiveWindow.ScrollColumn = 1
+    Range("C37:D39").Select
+    With Selection.Interior
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("D40").Select
+End Sub
