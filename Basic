@@ -1,0 +1,4 @@
+Sub MacroPrueba1()
+ Range ("A1").Value="INV"
+ Range ("A1").Interior.Color=5296274
+ End Sub
