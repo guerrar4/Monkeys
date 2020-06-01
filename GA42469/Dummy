@@ -1,0 +1,283 @@
+Sub Macro1()
+'
+' Macro1 Macro
+'
+
+'
+    Sheets("Raw Data - Visit Names").Select
+    Range("F5").Select
+    Range("G5").Select
+    Selection.Insert Shift:=xlToRight, CopyOrigin:=xlFormatFromLeftOrAbove
+    Range("G5").Select
+    ActiveCell.FormulaR1C1 = "In/Clinic visit Day 28**"
+    Range("G7").Select
+    Sheets("Schedule of Assessment").Select
+    ActiveWindow.SmallScroll Down:=36
+    Sheets("Raw Data - Visit Names").Select
+    ActiveWindow.SmallScroll Down:=-6
+    Sheets("Schedule of Assessment").Select
+    Range("M53").Select
+    Application.CommandBars("Watch Window").Visible = False
+    Application.Calculation = xlAutomatic
+    Range("V57:V93").Select
+    With Selection.Interior
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveWindow.SmallScroll Down:=-21
+    Range("V57").Select
+    With Selection.Font
+        .ColorIndex = xlAutomatic
+        .TintAndShade = 0
+    End With
+    ActiveWindow.SmallScroll Down:=-69
+    Range("C20:D20").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveCell.FormulaR1C1 = "PaO2"
+    Rows("30:30").Select
+    Range("C30").Activate
+    Selection.Copy
+    Rows("30:30").Select
+    Range("C30").Activate
+    Selection.Insert Shift:=xlDown
+    Rows("30:30").Select
+    Range("C30").Activate
+    Application.CutCopyMode = False
+    Selection.Copy
+    Selection.Insert Shift:=xlDown
+    ActiveWindow.SmallScroll Down:=6
+    Rows("30:30").Select
+    Range("C30").Activate
+    Application.CutCopyMode = False
+    Selection.Copy
+    Selection.Insert Shift:=xlDown
+    Range("C30:D30,C31:D31,C32:D32").Select
+    Range("C32").Activate
+    Application.CutCopyMode = False
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("C30:D30").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("C31:D31").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("C32:D32").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("C30:D30").Select
+    ActiveCell.FormulaR1C1 = "Coagulation (aPTT, PT, INR)"
+    Range("C31:D31").Select
+    ActiveCell.FormulaR1C1 = "Gibrignogen"
+    Range("C32:D32").Select
+    ActiveCell.FormulaR1C1 = "Fibrin Degradation Products, D-dimer"
+    Range("E30").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("E31").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("E32").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("E33").Select
+    ActiveWindow.SmallScroll Down:=6
+    Range("C34:D34").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveCell.FormulaR1C1 = "NT-proBNP/BNP"
+    Rows("35:35").Select
+    Range("C35").Activate
+    Selection.Copy
+    Selection.Insert Shift:=xlDown
+    Range("C36:D36").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "Lactate (lactic acid)"
+    Range("C36:D36").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("C37:D37").Select
+    ActiveCell.FormulaR1C1 = _
+        "SARS-CoV-2 Viral Load (nasopharyngeal swab/BAL; incl. prep., ship. & handl.)"
+    Range("C37:D37").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveCell.FormulaR1C1 = _
+        "SARS-CoV-2 Viral Load (nasopharyngeal swab/BAL; incl. prep., ship. & handl.)"
+    With ActiveCell.Characters(Start:=1, Length:=0).Font
+        .Name = "Verdana"
+        .FontStyle = "Regular"
+        .Size = 10
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .ThemeColor = xlThemeColorLight1
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    With ActiveCell.Characters(Start:=1, Length:=10).Font
+        .Name = "Verdana"
+        .FontStyle = "Regular"
+        .Size = 10
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .Color = -16776961
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    With ActiveCell.Characters(Start:=11, Length:=66).Font
+        .Name = "Verdana"
+        .FontStyle = "Regular"
+        .Size = 10
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .ThemeColor = xlThemeColorLight1
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    Range("C34:D34").Select
+    ActiveCell.FormulaR1C1 = "NT-proBNP/BNP"
+    With ActiveCell.Characters(Start:=1, Length:=10).Font
+        .Name = "Verdana"
+        .FontStyle = "Regular"
+        .Size = 10
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .ThemeColor = xlThemeColorLight1
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    With ActiveCell.Characters(Start:=11, Length:=3).Font
+        .Name = "Verdana"
+        .FontStyle = "Regular"
+        .Size = 10
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .Color = -16776961
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    Range("C35:D35").Select
+    ActiveWindow.SmallScroll Down:=-24
+    Range("J23:J29").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveWindow.SmallScroll Down:=6
+    Range("J30:J32").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("J23").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J24").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J25").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J26").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J27").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J28").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J29").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J30").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J31").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J32").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J35").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J35").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveWindow.SmallScroll Down:=9
+    Range("J37").Select
+    Selection.AutoFill Destination:=Range("J36:J37"), Type:=xlFillDefault
+    Range("J36:J37").Select
+    Range("J36").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Selection.AutoFill Destination:=Range("G36:J36"), Type:=xlFillDefault
+    Range("G36:J36").Select
+    Range("G37").Select
+    ActiveWindow.SmallScroll Down:=12
+    Range("J50:J51").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("E52:F52").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveWindow.SmallScroll Down:=-45
+End Sub
