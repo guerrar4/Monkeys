@@ -91,7 +91,7 @@ Sub Macro3()
     ActiveWindow.SmallScroll Down:=15
     Range("H18").Select
     ActiveCell.FormulaR1C1 = _
-        "At screening and baseline for patients who are mechanically ventilated and have existing"
+        "At screening and baseline for patients who are mechanically ventilated and have existing arterial lines"
     Range("A19").Select
     Selection.Copy
     Range("A7:A18").Select
