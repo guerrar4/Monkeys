@@ -1,0 +1,235 @@
+Sub Macro1()
+'
+' Macro1 Macro
+'
+
+'
+    Rows("70:70").Select
+    Selection.Copy
+    Selection.Insert Shift:=xlDown
+    Rows("70:70").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Selection.Insert Shift:=xlDown
+    Rows("70:70").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Selection.Insert Shift:=xlDown
+    Range("C70:D70").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = ""
+    Range("C71:D71").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("C72:D72").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("C70:D72").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("C70:D70").Select
+    ActiveCell.FormulaR1C1 = "Coagulation (aPTT, PT, INR)"
+    Range("C71:D71").Select
+    ActiveCell.FormulaR1C1 = "Fibrinogen"
+    Range("C72:D72").Select
+    ActiveCell.FormulaR1C1 = "Fibrin Degradation Products, D-dimer"
+    Range("F70").Select
+    ActiveWindow.SmallScroll Down:=6
+    Range("F70").Select
+    ActiveCell.FormulaR1C1 = "131"
+    Range("F71").Select
+    ActiveCell.FormulaR1C1 = "41"
+    Range("F72").Select
+    ActiveCell.FormulaR1C1 = "111"
+    Range("F70:F72").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("V70").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V71").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V72").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V73").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V74").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V75").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V76").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V77").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V78").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V81").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V82").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V83").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V86").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V87").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("V88").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V89").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("V90").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V91").Select
+    ActiveWindow.SmallScroll Down:=-21
+    Range("V59").Select
+    ActiveCell.FormulaR1C1 = "***"
+    Range("V60").Select
+    ActiveCell.FormulaR1C1 = "***"
+    Range("V61").Select
+    ActiveCell.FormulaR1C1 = "***"
+    Range("V62").Select
+    ActiveCell.FormulaR1C1 = "***"
+    Range("V63").Select
+    ActiveCell.FormulaR1C1 = "***"
+    Range("V64").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V65").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V66").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V67").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V68").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V69").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("V70").Select
+    ActiveWindow.SmallScroll Down:=3
+    Range("J64:AH64").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("J64").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("M64").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("P64").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("S64").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("Y64").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AB64").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AE64").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AH64").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AH65").Select
+    ActiveWindow.SmallScroll Down:=6
+    Range("G78").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveCell.FormulaR1C1 = "1"
+    Range("G79").Select
+    ActiveWindow.SmallScroll Down:=-6
+    Range("G70:G72").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AE70:AE72").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AK70:AK72").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("S58").Select
+    Selection.Copy
+    Range("V58").Select
+    Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    Application.CutCopyMode = False
+    ActiveWindow.SmallScroll Down:=15
+    Range("V87").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 13434879
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("V89").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 13434879
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveWindow.SmallScroll Down:=-18
+    Range("AE57").Select
+    Selection.Copy
+    Range("V57").Select
+    Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    Application.CutCopyMode = False
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveWindow.SmallScroll Down:=0
+    Range("V57").Select
+    Selection.Copy
+    ActiveWindow.SmallScroll Down:=18
+    Range("V85").Select
+    Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    Application.CutCopyMode = False
+    ActiveWindow.SmallScroll Down:=6
+    Selection.Copy
+    Range("V93").Select
+    Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    Application.CutCopyMode = False
+    ActiveWindow.SmallScroll Down:=-12
+End Sub
