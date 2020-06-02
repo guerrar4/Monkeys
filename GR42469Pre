@@ -1,0 +1,616 @@
+Sub Macro2()
+'
+' Macro2 Macro
+'
+
+'
+    Range("C20:D20").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveCell.FormulaR1C1 = "PaO2"
+    Range("C21:D21").Select
+    ActiveWindow.SmallScroll Down:=6
+    Rows("30:30").Select
+    Range("C30").Activate
+    Selection.Copy
+    Selection.Insert Shift:=xlDown
+    Rows("30:30").Select
+    Range("C30").Activate
+    Application.CutCopyMode = False
+    Selection.Copy
+    Selection.Insert Shift:=xlDown
+    Rows("30:30").Select
+    Range("C30").Activate
+    Application.CutCopyMode = False
+    Selection.Copy
+    Selection.Insert Shift:=xlDown
+    ActiveWindow.SmallScroll Down:=6
+    Range("C30:D30").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = ""
+    Range("C31:D31").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("C32:D32").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("C30:D32").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("C30:D30").Select
+    ActiveCell.FormulaR1C1 = "Coagulation (aPTT, PT, INR)"
+    Range("C31:D31").Select
+    ActiveCell.FormulaR1C1 = "Fibrinogen"
+    Range("C32:D32").Select
+    ActiveCell.FormulaR1C1 = "Fibrin Degradation Products, D-dimer"
+    Range("E30").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("E31").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("E32").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("E30:E32").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("F30").Select
+    ActiveCell.FormulaR1C1 = "131"
+    Range("F31").Select
+    ActiveCell.FormulaR1C1 = "41"
+    Range("F32").Select
+    ActiveCell.FormulaR1C1 = "111"
+    Range("F33").Select
+    ActiveWindow.SmallScroll Down:=3
+    Range("C34:D34").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveCell.FormulaR1C1 = "NT-proBNP/BNP"
+    Range("C34:D34").Select
+    ActiveCell.FormulaR1C1 = "NT-proBNP/BNP"
+    With ActiveCell.Characters(Start:=1, Length:=10).Font
+        .Name = "Verdana"
+        .FontStyle = "Regular"
+        .Size = 10
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .ThemeColor = xlThemeColorLight1
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    With ActiveCell.Characters(Start:=11, Length:=3).Font
+        .Name = "Verdana"
+        .FontStyle = "Regular"
+        .Size = 10
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .Color = -16776961
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    Range("C36:D36").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveCell.FormulaR1C1 = _
+        "SARS-CoV-2 Viral Load (nasopharyngeal swab/BAL; incl. prep., ship. & handl.)"
+    With ActiveCell.Characters(Start:=1, Length:=0).Font
+        .Name = "Verdana"
+        .FontStyle = "Regular"
+        .Size = 10
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .ThemeColor = xlThemeColorLight1
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    With ActiveCell.Characters(Start:=1, Length:=10).Font
+        .Name = "Verdana"
+        .FontStyle = "Regular"
+        .Size = 10
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .Color = -16776961
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    With ActiveCell.Characters(Start:=11, Length:=66).Font
+        .Name = "Verdana"
+        .FontStyle = "Regular"
+        .Size = 10
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .ThemeColor = xlThemeColorLight1
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    Range("C37:D37").Select
+    ActiveWindow.SmallScroll Down:=-6
+    Range("J23:J32").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("J23").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J24").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J25").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J26").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J27").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J28").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J29").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J30").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J31").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J32").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J35").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("J36").Select
+    ActiveWindow.SmallScroll Down:=3
+    Rows("36:36").Select
+    Range("C36").Activate
+    Selection.Copy
+    Selection.Insert Shift:=xlDown
+    Range("C36:D36").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "Lactate ( lactic acid)"
+    Range("F36").Select
+    ActiveCell.FormulaR1C1 = "31"
+    Range("J36").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("G36").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("J36").Select
+    Selection.AutoFill Destination:=Range("G36:J36"), Type:=xlFillDefault
+    Range("G36:J36").Select
+    Range("M38").Select
+    ActiveWindow.SmallScroll Down:=-3
+    Range("P30").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AB30").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AK30").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveCell.FormulaR1C1 = "1"
+    Range("P30").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AW30").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("BF30").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveCell.FormulaR1C1 = "1"
+    Range("BR30").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("CM30").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("CV30").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("CV31").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("CV32").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("CM31:CM32").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("BR31:BR32").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("BF31").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("BF32").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("BF31:BF32").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AW31:AW32").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("P31").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("P32").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("P31:P32").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AB31:AB32").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AK31").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AK32").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AK31:AK32").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AB33").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveCell.FormulaR1C1 = ""
+    Range("BR33").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("BR33").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("CM33").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("CM33").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("CV33").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("CV33").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("CV34").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("CM34").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("CM34").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("CV34").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("BR34").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("BR34").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AB34").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AB34").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("P35").Select
+    ActiveCell.FormulaR1C1 = "***"
+    Range("P35").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AB35").Select
+    ActiveCell.FormulaR1C1 = "***"
+    Range("AB35").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AK35").Select
+    ActiveCell.FormulaR1C1 = "***"
+    Range("AK35").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("BF35").Select
+    ActiveCell.FormulaR1C1 = "***"
+    Range("BF35").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("BR35").Select
+    ActiveCell.FormulaR1C1 = "***"
+    Range("BR35").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("CV35").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("CM35").Select
+    ActiveCell.FormulaR1C1 = "***"
+    Range("CV35").Select
+    ActiveCell.FormulaR1C1 = "***"
+    Range("CM35").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("CV35").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("CM35").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("CV35").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("CM35").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("CV35").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("CJ35").Select
+    Selection.Copy
+    Range("CM35:CV35").Select
+    Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    Application.CutCopyMode = False
+    Range("M36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("P36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("S36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("V36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("Y36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AB36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AE36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AH36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AK36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AN36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AQ36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AT36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AW36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AZ36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("BC36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("BF36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("BI36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("BL36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("BO36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("BR36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("BU36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("BX36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("CA36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("CD36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("CG36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("CJ36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("CM36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("CP36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("CS36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("CV36").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("A37").Select
+End Sub
