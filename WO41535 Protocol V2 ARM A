@@ -27,8 +27,6 @@ Sub Macro1()
         .TintAndShade = 0
         .PatternTintAndShade = 0
     End With
-    Range("F25").Select
-    ActiveCell.FormulaR1C1 = "1"
     Range("I25").Select
     ActiveCell.FormulaR1C1 = "1"
     Range("L25").Select
@@ -59,7 +57,7 @@ Sub Macro1()
         .TintAndShade = 0
         .PatternTintAndShade = 0
     End With
-    Range("F25:AG25").Select
+    Range("I25:AG25").Select
     With Selection.Interior
         .Pattern = xlSolid
         .PatternColorIndex = xlAutomatic
