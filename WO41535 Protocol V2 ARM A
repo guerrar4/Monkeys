@@ -1,0 +1,98 @@
+Sub Macro1()
+'
+' Macro1 Macro
+'
+
+'
+    Rows("25:25").Select
+    Range("C25").Activate
+    Selection.Copy
+    Selection.Insert Shift:=xlDown
+    Range("C25").Select
+    Application.CutCopyMode = False
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("E25").Select
+    ActiveCell.FormulaR1C1 = "38"
+    Range("E25").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("F25").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("I25").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("L25").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("O25").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("R25").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("U25").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("X25").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AA25").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AD25").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AG25").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AJ25").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AP26").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("AP26").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("F25:AG25").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("C25").Select
+    ActiveCell.FormulaR1C1 = "Child-Pugh assessment"
+    Range("C25").Select
+    ActiveWindow.SmallScroll Down:=18
+    Range("I52:AG53").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("F52:F53").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("D54:E54").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+End Sub
