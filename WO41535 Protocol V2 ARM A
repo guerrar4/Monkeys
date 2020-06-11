@@ -96,7 +96,6 @@ Sub Macro1()
     Range("F25").Select
     ActiveCell.FormulaR1C1 = ""
     Range("F26").Select
-    End With
     Range("F52:F53").Select
     With Selection.Interior
         .Pattern = xlSolid
