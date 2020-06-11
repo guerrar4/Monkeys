@@ -1,0 +1,208 @@
+Sub Macro4()
+'
+' Macro4 Macro
+'
+
+'
+    Rows("78:78").Select
+    Range("C78").Activate
+    Selection.Copy
+    Selection.Insert Shift:=xlDown
+    Rows("78:78").Select
+    Range("C78").Activate
+    Application.CutCopyMode = False
+    Selection.Copy
+    Selection.Insert Shift:=xlDown
+    Rows("79:79").Select
+    Range("C79").Activate
+    Application.CutCopyMode = False
+    Selection.Copy
+    Selection.Insert Shift:=xlDown
+    Range("C78:C80").Select
+    Application.CutCopyMode = False
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("C78").Select
+    ActiveCell.FormulaR1C1 = _
+        "Thromboplastin time, partial (PTT) (aPTT); plasma or whole blood, serum"
+    Range("C79").Select
+    ActiveCell.FormulaR1C1 = "International Normalized Ratio (INR)"
+    Range("C80").Select
+    ActiveCell.FormulaR1C1 = "Child-Pugh assessment"
+    Range("E78:E80").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("E78").Select
+    ActiveCell.FormulaR1C1 = "40"
+    Range("E79").Select
+    ActiveCell.FormulaR1C1 = "39"
+    Range("E80").Select
+    ActiveCell.FormulaR1C1 = "38"
+    Range("F78").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("F79").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("F80").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AJ78").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AJ79").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AJ80").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AP81").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("AP81").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("I78:I80").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("L78:L80").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("R78:R80").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("X78:X80").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AD78:AD80").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AJ78:AJ79").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("I78").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("I79").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("I80").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("L78").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("L79").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("L80").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("R78").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("R79").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("R80").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("X78").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("X79").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("X80").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AD78").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AD79").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AD80").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AJ78").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AJ79").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AJ80").Select
+    ActiveWindow.SmallScroll Down:=18
+    Range("I104:L105").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("R104:R105").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("X104:X105").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AD104:AD105").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AJ104:AJ105").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveWindow.SmallScroll Down:=3
+    Range("D106:E106").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("F106").Select
+    ActiveWindow.SmallScroll Down:=-12
+End Sub
