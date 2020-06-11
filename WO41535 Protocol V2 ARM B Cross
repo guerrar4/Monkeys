@@ -1,0 +1,89 @@
+Sub Macro5()
+'
+' Macro5 Macro
+'
+
+'
+    Rows("127:127").Select
+    Range("C127").Activate
+    Selection.Copy
+    Selection.Insert Shift:=xlDown
+    Range("C127").Select
+    Application.CutCopyMode = False
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveCell.FormulaR1C1 = "Child-Pugh assessment"
+    Range("E127").Select
+    ActiveCell.FormulaR1C1 = "38"
+    Range("E127").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("F127").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("I127:AG127").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AJ127").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("I127").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("L127").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("O127").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("R127").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("U127").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("X127").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AA127").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AD127").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AG127").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AP128").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("AP128").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveWindow.SmallScroll Down:=12
+    Range("I149:AG150").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("D151:E151").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("F151").Select
+End Sub
