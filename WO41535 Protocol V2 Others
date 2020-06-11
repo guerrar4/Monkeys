@@ -1,0 +1,130 @@
+Sub Macro6()
+'
+' Macro6 Macro
+'
+
+'
+    Range("B6:B7").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("B9:B16").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveWindow.SmallScroll Down:=15
+    Range("B18:B36").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveWindow.SmallScroll Down:=-15
+    Range("B6").Select
+    ActiveCell.FormulaR1C1 = "17"
+    Range("B7").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("B9").Select
+    ActiveCell.FormulaR1C1 = "4"
+    Range("B10").Select
+    ActiveCell.FormulaR1C1 = "4"
+    Range("B11").Select
+    ActiveCell.FormulaR1C1 = "4"
+    Range("B12").Select
+    ActiveCell.FormulaR1C1 = "17"
+    Range("B13").Select
+    ActiveCell.FormulaR1C1 = "17"
+    Range("B14").Select
+    ActiveCell.FormulaR1C1 = "17"
+    Range("B15").Select
+    ActiveCell.FormulaR1C1 = "2"
+    Range("B16").Select
+    ActiveCell.FormulaR1C1 = "22"
+    Range("B18").Select
+    ActiveCell.FormulaR1C1 = "2"
+    Range("B19").Select
+    ActiveCell.FormulaR1C1 = "2"
+    Range("B20").Select
+    ActiveCell.FormulaR1C1 = "2"
+    Range("B21").Select
+    ActiveCell.FormulaR1C1 = "2"
+    Range("B22").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("B23").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("B24").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("B25").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("B26").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("B27").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("B28").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("B29").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("B30").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("B31").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("B32").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("B33").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("B34").Select
+    ActiveCell.FormulaR1C1 = "8"
+    Range("B35").Select
+    ActiveCell.FormulaR1C1 = "3"
+    Range("B36").Select
+    ActiveCell.FormulaR1C1 = "17"
+    Range("B37").Select
+    ActiveWindow.SmallScroll Down:=-27
+    Range("G6,G7").Select
+    Range("G7").Activate
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("G9:G16").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveWindow.SmallScroll Down:=6
+    Range("G18:G36").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("D18").Select
+    ActiveWindow.SmallScroll Down:=36
+    Range("B59:C59").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveWindow.SmallScroll Down:=-51
+End Sub
