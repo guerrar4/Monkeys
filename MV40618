@@ -1,0 +1,406 @@
+Sub Macro1()
+'
+' Macro1 Macro
+'
+
+'
+    ActiveWindow.Zoom = 60
+    ActiveWindow.Zoom = 50
+    ActiveWindow.Zoom = 40
+    Range("AA5:AA30").Select
+    Selection.Copy
+    Range("AE5:AE30").Select
+    ActiveSheet.Paste
+    Range("AI5:AI30").Select
+    ActiveSheet.Paste
+    Range("AE2:AI31").Select
+    Selection.FormatConditions.Delete
+    Range("AQ13").Select
+    ActiveWindow.SmallScroll Down:=27
+    Range("W37:W59").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("AA37:AA59").Select
+    ActiveSheet.Paste
+    Range("AQ49").Select
+    ActiveWindow.SmallScroll Down:=-36
+    Range("AE5").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "Early Discon."
+    Range("AE6").Select
+    ActiveWindow.Zoom = 50
+    Range("AI5").Select
+    ActiveCell.FormulaR1C1 = "SF/U for age (5-11)"
+    Range("AE5:AI5").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    With Selection.Font
+        .Color = -16776961
+        .TintAndShade = 0
+    End With
+    Range("AE20:AI20,AE28:AI28").Select
+    Range("AE28").Activate
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    With Selection.Font
+        .Color = -16776961
+        .TintAndShade = 0
+    End With
+    Range("AE29:AI30").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("F31:J31").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AU13").Select
+    ActiveWindow.SmallScroll Down:=30
+    Range("AA37,AA49,AA57,AA58,AA59,F60:J60").Select
+    Range("F60").Activate
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AA37,AA49,AA57").Select
+    Range("AA57").Activate
+    With Selection.Font
+        .Color = -16776961
+        .TintAndShade = 0
+    End With
+    Range("AM50").Select
+    ActiveWindow.SmallScroll Down:=-36
+    Range("AA10,AA11,AE10,AE11,AA15,AA16,AE17,AE18,AI17,AI18").Select
+    Range("AI18").Activate
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AQ13,AE22,AI22,AE23,AI24,AI25,AE25,AE26,AI26").Select
+    Range("AI26").Activate
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AA26,S26,O26,K26").Select
+    Range("K26").Activate
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AU20").Select
+    ActiveWindow.SmallScroll Down:=30
+    Range("AU20,AA40,AA41,AA43,AA44,AA46,AA47,AA52,AA54,AA55,W55,O55,K55").Select
+    Range("K55").Activate
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("K40").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("K40").Select
+    ActiveCell.FormulaR1C1 = "2"
+    Range("K58:K59").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AA40").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("AA41").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("AA43").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("AA44").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("AA46").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("AA52").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AA53").Select
+    ActiveWindow.SmallScroll Down:=0
+    Range("AA55").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("W55").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("W58:W59").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("O55").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("O58:O59").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("AA53").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("W59").Select
+    Selection.AutoFill Destination:=Range("W59:AA59"), Type:=xlFillDefault
+    Range("W59:AA59").Select
+    Range("W58").Select
+    Selection.AutoFill Destination:=Range("W58:AA58"), Type:=xlFillDefault
+    Range("W58:AA58").Select
+    Range("AI59").Select
+    ActiveWindow.SmallScroll Down:=-30
+    Range("AA10").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("AA11").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("AE10").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("AE11").Select
+    ActiveCell.FormulaR1C1 = "INV"
+    Range("AA15").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AA16").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AA29:AA30").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("K29:S30").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Range("K26").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("O26").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("S26").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AA26").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AE26").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AI26").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AE23").Select
+    ActiveCell.FormulaR1C1 = "1"
+    Range("AE24").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AU26").Select
+    ActiveWindow.SmallScroll Down:=30
+    Range("AA58").Select
+    ActiveCell.FormulaR1C1 = "=ROUND(SUM(R[-20]C[2]:R[-2]C[2]),0)"
+    Range("W58").Select
+    ActiveCell.FormulaR1C1 = "=ROUND(SUM(R[-20]C[2]:R[-2]C[2]),0)"
+    Range("AA59").Select
+    ActiveCell.FormulaR1C1 = "=ROUND(SUM(R[-21]C[3]:R[-3]C[3]),0)"
+    Columns("W:AA").Select
+    Range("W32").Activate
+    Selection.EntireColumn.Hidden = False
+    Columns("AA:AE").Select
+    Range("AA32").Activate
+    Selection.EntireColumn.Hidden = False
+    Range("AA59").Select
+    ActiveCell.FormulaR1C1 = "=ROUND(SUM(R[-21]C[3]:R[-3]C[3]),0)"
+    Range("AD47").Select
+    ActiveCell.FormulaR1C1 = _
+        "=ROUND(RC[-1]*(1+IF(RC[-20]=""Y"",'Cover Sheet'!R9C[-20],0)),0)"
+    Range("Z47").Select
+    ActiveCell.FormulaR1C1 = _
+        "=ROUND(RC[-1]*(1+IF(RC[-20]=""Y"",'Cover Sheet'!R9C[-20],0)),0)"
+    Range("AD47").Select
+    ActiveCell.FormulaR1C1 = _
+        "=ROUND(RC[-1]*(1+IF(RC[-24]=""Y"",'Cover Sheet'!R9C[-20],0)),0)"
+    Range("Y47").Select
+    ActiveCell.FormulaR1C1 = "=RC[-15]*RC[-1]"
+    Range("AC47").Select
+    ActiveCell.FormulaR1C1 = "=RC[-19]*RC[-1]"
+    Range("AD47").Select
+    ActiveCell.FormulaR1C1 = _
+        "=ROUND(RC[-1]*(1+IF(RC[-24]=""Y"",'Cover Sheet'!R9C[-20],0)),0)"
+    Range("AC47").Select
+    Selection.AutoFill Destination:=Range("AC47:AC55"), Type:=xlFillDefault
+    Range("AC47:AC55").Select
+    Range("AD49").Select
+    Selection.Copy
+    Range("AC49").Select
+    Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    Application.CutCopyMode = False
+    Range("AC49").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("Z47").Select
+    Selection.Copy
+    Range("AD47").Select
+    Selection.PasteSpecial Paste:=xlPasteFormulas, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    Columns("F:I").Select
+    Range("F32").Activate
+    Selection.EntireColumn.Hidden = False
+    Range("AD55").Select
+    ActiveCell.FormulaR1C1 = _
+        "=ROUND(RC[-1]*(1+IF(RC[-24]=""Y"",'Cover Sheet'!R9C[-20],0)),0)"
+    Range("Z55").Select
+    ActiveCell.FormulaR1C1 = _
+        "=ROUND(RC[-1]*(1+IF(RC[-20]=""Y"",'Cover Sheet'!R9C[-20],0)),0)"
+    Range("Z57").Select
+    ActiveWindow.SmallScroll Down:=-42
+    Columns("X:Z").Select
+    Range("Z1").Activate
+    Selection.EntireColumn.Hidden = True
+    Columns("AB:AD").Select
+    Range("AD1").Activate
+    Selection.EntireColumn.Hidden = True
+    Columns("G:G").Select
+    Selection.EntireColumn.Hidden = True
+    ActiveWindow.SmallScroll Down:=-15
+    Range("AI10").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("AI17").Select
+    ActiveWindow.SmallScroll Down:=12
+    Range("AI25").Select
+    Selection.Copy
+    ActiveWindow.SmallScroll Down:=12
+    Range("AA47").Select
+    Selection.PasteSpecial Paste:=xlPasteFormulas, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    ActiveWindow.SmallScroll Down:=6
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    Columns("AA:AE").Select
+    Range("AA32").Activate
+    Selection.EntireColumn.Hidden = False
+    Range("AD47").Select
+    ActiveCell.FormulaR1C1 = _
+        "=ROUND(RC[-1]*(1+IF(RC[-24]=""Y"",'Cover Sheet'!R9C[-20],0)),0)"
+    Columns("D:F").Select
+    Range("D32").Activate
+    Selection.EntireColumn.Hidden = False
+    Range("AD47").Select
+    ActiveCell.FormulaR1C1 = _
+        "=ROUND(RC[-1]*(1+IF(RC[-24]=""Y"",'Cover Sheet'!R9C[-20],0)),0)"
+    Columns("K:O").Select
+    Range("K32").Activate
+    Selection.EntireColumn.Hidden = False
+    Range("N47").Select
+    ActiveCell.FormulaR1C1 = _
+        "=ROUND(RC[-1]*(1+IF(RC[-8]=""Y"",'Cover Sheet'!R9C[-8],0)),0)"
+    Range("N47").Select
+    Selection.Copy
+    Range("AD47").Select
+    Selection.PasteSpecial Paste:=xlPasteFormulas, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    Range("AI49").Select
+    ActiveWindow.SmallScroll Down:=-51
+    Columns("AB:AD").Select
+    Selection.EntireColumn.Hidden = True
+    Columns("L:N").Select
+    Selection.EntireColumn.Hidden = True
+    ActiveWindow.SmallScroll Down:=-21
+    Range("AY20").Select
+    ActiveWindow.SmallScroll Down:=33
+    Range("K55").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "1"
+    Range("C55").Select
+    ActiveCell.FormulaR1C1 = "Subject Stipend Management"
+    With ActiveCell.Characters(Start:=1, Length:=16).Font
+        .Name = "Verdana"
+        .FontStyle = "Regular"
+        .Size = 10
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .ThemeColor = xlThemeColorLight1
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    With ActiveCell.Characters(Start:=17, Length:=10).Font
+        .Name = "Verdana"
+        .FontStyle = "Regular"
+        .Size = 10
+        .Strikethrough = True
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .Color = -16776961
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    Range("C55").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .Color = 65535
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    Columns("E:E").Select
+    Range("E35").Activate
+    Selection.EntireColumn.Hidden = True
+    Range("C55").Select
+    Selection.Copy
+    ActiveWindow.SmallScroll Down:=-18
+    Range("C26").Select
+    ActiveSheet.Paste
+    Range("AY37").Select
+    ActiveWindow.SmallScroll Down:=-15
+End Sub
